@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "progect",
+			"path": ".."
+		},
+		{
+			"name": "DZ",
+			"path": "C:/Users/User/Desktop/DZ"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "progect"
+	}
+}
