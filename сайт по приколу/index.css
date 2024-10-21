@@ -1,0 +1,86 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/Cover\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1880px;
+}
+
+.intro {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 1080px;
+    height: 488px;
+    margin-left: 450px;
+    margin-top: 200px;
+    color: white;
+}
+
+.intro h2 {
+    font-size: 70px;
+    padding-top: 100px;
+    padding-left: 400px;
+}
+
+.intro p {
+    font-size: 32px;
+    padding-left: 370px;
+}
+
+.intro button {
+    background-color: rgb(138, 255, 66);
+    border: none;
+    border-radius: 100px;
+    padding: 20px 80px 20px 80px;
+    font-size: 40px;
+    color: white;
+    margin-left: 450px;
+}
+
+.menu {
+    background-color: #333;
+    padding: 10px 0;
+    margin-left: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.menu a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffa500; /* Цвет текста при наведении */
+}
+
+.menu a:hover::after {
+    width: 100%;
+    left: 0;
+}
